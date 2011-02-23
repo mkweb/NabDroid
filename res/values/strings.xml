@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Application-Name -->
+	<string name="app_name">NabDroid</string>
+
+	<!-- Buttons -->
+	<string name="say">speak</string>
+    <string name="wake">wake up</string>
+    <string name="sleep">sleep</string>
+    <string name="back">back</string>
+    <string name="save">save</string>
+    
+    <!-- Edit Keys -->
+    <string name="edit_token">Token</string>
+    <string name="edit_serial">Serial</string>
+    <string name="edit_voice">Voices</string>
+    <string name="languages_prompt">Please choose</string>
+    
+    <!-- Menu -->
+    <string name="menu_options">Settings</string>
+    <string name="menu_exit">Exit</string>
+    
+    <!-- Error Messages -->
+    <string name="error_token_serial_title">broken Configuration</string>
+    <string name="error_token_serial_message">
+    	Token or Serial not set\n\n
+    	you can define this values in »Settings«.
+    </string>
+    
+    <!-- processing -->
+    <string name="process_send">sending your command...</string>
+    
+    <!-- Confirm -->
+    <string name="confirm_ok">OK</string>
+    <string name="confirm_cancel">Cancel</string>
+    <!-- Alert -->
+    <string name="alert_ok">OK</string>
+    
+    <!-- Save Settings -->
+    <string name="message_saved_error_title">Error</string>
+    <string name="message_saved_error_message">Your changes can not be applied.</string>
+    
+    <!-- Sent command -->
+    <string name="message_sent_title">Command sent</string>
+    <string name="message_sent_message">Your command was sent successfully to your Nabaztag!</string>
+    
+    <!-- Exit Prompt -->
+    <string name="message_exit_title">Exit NabDroid</string>
+    <string name="message_exit_message">Do you really want to exit?</string>
+    
+    <!-- Phrases -->
+    <string name="loading">Loading</string>
+    
+    <!-- Violet answers -->
+	<string name="message_sent_error_title">Error</string>
+	<string name="response_NOGOODSERIAL">Your serial is not correct!</string>
+	<string name="response_NOGOODTOKENORSERIAL">Serial or token is not correct!</string>
+	<string name="response_NOTAVAILABLE">This command is not available at the moment!</string>
+	<string name="response_UNKNOWN">An unknown error occured!</string>
+    <string name="response_TTSNOTSENT">No text present!</string>
+    
+    <!--  Activities -->
+    <string name="activity_settings">NabDroid | Settings</string>
+</resources>

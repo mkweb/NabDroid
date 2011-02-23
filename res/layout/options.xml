@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical" >
+              
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10px"
+            android:textColor="@android:color/black" 
+            android:text="@string/edit_token" />
+        <EditText android:id="@+id/edit_token"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:padding="3dip" />
+            
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10px"
+            android:textColor="@android:color/black" 
+            android:text="@string/edit_serial" />
+        <EditText android:id="@+id/edit_serial"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:padding="3dip" />
+            
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10px"
+            android:textColor="@android:color/black" 
+            android:text="@string/edit_voice" />
+        <Spinner 
+	        android:id="@+id/spinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:drawSelectorOnTop="true"
+	        android:prompt="@string/languages_prompt"
+	    	/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:paddingTop="10px"
+              android:background="@android:color/white"
+              android:orientation="horizontal" >
+		    <Button android:id="@+id/button_back"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/back" />
+		    <Button android:id="@+id/button_save"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/save" />
+   	</LinearLayout>
+   	
+   	   	
+   	<ImageView
+			android:id="@+id/nabaztag"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|bottom"
+			android:src="@drawable/nabaztag" />
+</LinearLayout>

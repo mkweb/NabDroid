@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical" >
+	              
+    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    		  android:id="@+id/text"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" 
+              android:inputType="textMultiLine"
+              android:lines="6"
+              android:singleLine="false"
+              android:gravity="top"
+              android:layout_marginTop="20dp"
+              android:editable="true" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:background="@android:color/white"
+              android:orientation="horizontal" >
+	    <Button android:id="@+id/button_say"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:enabled="false"
+	            android:text="@string/say" />
+	    <Button android:id="@+id/button_sleep"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:enabled="false"
+	            android:text="@string/sleep" />
+	    <Button android:id="@+id/button_wake"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:enabled="false"
+	            android:text="@string/wake" />
+   	</LinearLayout>
+   	
+   	<ImageView
+			android:id="@+id/nabaztag"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|bottom"
+			android:src="@drawable/nabaztag" />
+	
+</LinearLayout>

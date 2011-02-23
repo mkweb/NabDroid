@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Application-Name -->
+	<string name="app_name">NabDroid</string>
+
+	<!-- Buttons -->
+	<string name="say">sprechen</string>
+    <string name="wake">aufwachen</string>
+    <string name="sleep">schlafen</string>
+    <string name="back">zurück</string>
+    <string name="save">speichern</string>
+    
+    <!-- Edit Keys -->
+    <string name="edit_token">Token</string>
+    <string name="edit_serial">Seriennummer</string>
+    <string name="edit_voice">Sprache</string>
+    <string name="languages_prompt">Bitte wählen</string>
+    
+    <!-- Menu -->
+    <string name="menu_options">Einstellungen</string>
+    <string name="menu_exit">Programm beenden</string>
+    
+    <!-- Error Messages -->
+    <string name="error_token_serial_title">fehlerhafte Konfiguration</string>
+    <string name="error_token_serial_message">
+    	Token oder Serial sind nicht angegeben\n\n
+    	diese Werte können unter »Einstellungen« geändert werden.
+    </string>
+    
+    <!-- processing -->
+    <string name="process_send">Dein Befehl wird versendet...</string>
+    
+    <!-- Confirm -->
+    <string name="confirm_ok">OK</string>
+    <string name="confirm_cancel">Abbrechen</string>
+    <!-- Alert -->
+    <string name="alert_ok">OK</string>
+    
+    <!-- Save Settings -->
+    <string name="message_saved_error_title">Fehler</string>
+    <string name="message_saved_error_message">Leider konnten die Einstellungen nicht gespeichert werden.</string>
+    
+    <!-- Sent command -->
+    <string name="message_sent_title">Befehl versendet</string>
+    <string name="message_sent_message">Der Befehl wurde erfolgreich an deinen Nabaztag versendet!</string>
+    
+    <!-- Exit Prompt -->
+    <string name="message_exit_title">NabDroid beenden</string>
+    <string name="message_exit_message">Willst du Nabdroid wirklich beenden?</string>
+    
+    <!-- Phrases -->
+    <string name="loading">Laden</string>
+    
+    <!-- Violet answers -->
+	<string name="message_sent_error_title">Fehler</string>
+	<string name="response_NOGOODSERIAL">Die Seriennummer ist nicht korrekt!</string>
+	<string name="response_NOGOODTOKENORSERIAL">Seriennummer und/oder Token ist nicht korrekt!</string>
+	<string name="response_NOTAVAILABLE">Dieser Dienst ist im Moment nicht verfügbar!</string>
+	<string name="response_UNKNOWN">Ein unbekannter Fehler ist aufgetreten!</string>
+    <string name="response_TTSNOTSENT">Es wurde kein Text angegeben!</string>
+    
+    <!--  Activities -->
+    <string name="activity_settings">NabDroid | Einstellungen</string>
+    
+</resources>
